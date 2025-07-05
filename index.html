@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div id="captureme"></div>
+            <form method="get" onsubmit="return validateForm()">
+                <h1>Enter details</h1>
+                <div class="namecontainer">
+                    <label for="name">Name</label>
+                    <br />
+                    <input type="text" id="name" name="name" />
+                </div>
+                <div class="emailcontainer">
+                    <label for="email">Email</label>
+                    <br />
+                    <input type="email" id="email" name="email" />
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            <script type="text/javascript" src="script.js"></script>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+html,
+body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: rgb(67, 67, 67);
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+form {
+    background-color: rgb(229, 229, 229);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.namecontainer,
+.emailcontainer {
+    margin: 10px 0px;
+}
+
+input {
+    background-color: rgb(242, 242, 242);
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgb(155, 248, 155);
+    border-radius: 5px;
+    border-color: green;
+    padding: 5px;
+}
