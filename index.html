@@ -14,12 +14,24 @@
                 <div class="namecontainer">
                     <label for="name">Name</label>
                     <br />
-                    <input type="text" id="name" name="name" />
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        class=""
+                        oninput="liveValidate();"
+                    />
                 </div>
                 <div class="emailcontainer">
                     <label for="email">Email</label>
                     <br />
-                    <input type="email" id="email" name="email" />
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        class=""
+                        oninput="liveValidate();"
+                    />
                 </div>
                 <button type="submit">Submit</button>
             </form>

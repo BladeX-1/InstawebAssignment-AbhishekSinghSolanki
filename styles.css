@@ -35,3 +35,7 @@ button {
     border-color: green;
     padding: 5px;
 }
+
+.invalid {
+    background-color: rgb(255, 121, 121);
+}
